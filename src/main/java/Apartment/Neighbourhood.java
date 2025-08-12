@@ -24,6 +24,7 @@ public class Neighbourhood extends Place{
         for (Building building : buildings) {
             if (building.getApartments().contains(apartment)) return true;
         }
+        // if the apartment is in the building in the neighbourhood, it will return true
         return false;
     }
 
